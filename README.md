@@ -19,16 +19,18 @@ The project is organized into main and two key branches, each representing a dif
 - ✅ **Automated Login, Account Creation, and Checkout UI**
 - Implements full UI flow: login, registration, adding items to cart, and completing a purchase
 - Uses Page Object Model and dynamic test data with Faker
+- Credentials managed with `.env`
 
 ###  `branch1`
 - ✅ **Automated Login & User Account CRUD API**
 - Covers authentication and user management via direct API testing
 - All requests and data validations handled using Playwright’s request context
-- Credentials managed with `.env`
+- Sensitive data managed securely with `.env`
 
 ###  `branch2`
 - ✅ **Utilized API to support UI tests**
 - Demonstrates hybrid testing by using API in UI test
+- Credentials managed with `.env`
 
 ---
 
