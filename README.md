@@ -24,12 +24,11 @@ The project is organized into main and two key branches, each representing a dif
 - ✅ **Automated Login & User Account CRUD API**
 - Covers authentication and user management via direct API testing
 - All requests and data validations handled using Playwright’s request context
-- Test data is stored in JSON files, credentials managed with `.env`
+- Credentials managed with `.env`
 
 ###  `branch2`
 - ✅ **Utilized API to support UI tests**
-- Demonstrates hybrid testing by using API to set up data or state, then validating via UI
-- Example: Creating users or products via API and verifying them in the UI
+- Demonstrates hybrid testing by using API in UI test
 
 ---
 
